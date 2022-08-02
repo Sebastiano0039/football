@@ -9,8 +9,7 @@ Pour que le site se connecte à la base de données et fonctionne correctement, 
 
 Fichier wp-content :
 
-`
-<?php
+`<?php
 /**
  * La configuration de base de votre installation WordPress.
  *
@@ -107,5 +106,4 @@ if ( ! defined( 'ABSPATH' ) )
   define( 'ABSPATH', dirname( __FILE__ ) . '/' );
 
 /** Réglage des variables de WordPress et de ses fichiers inclus. */
-require_once( ABSPATH . 'wp-settings.php' );
-`
+require_once( ABSPATH . 'wp-settings.php' );`
